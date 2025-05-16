@@ -6,29 +6,33 @@
   font-family: sans-serif;
 }
 .App{
-    display: grid;
+
+  display: flex;
+  flex-direction: column;
+    /* display: grid;
     grid-template-areas: 
     "Navbar Navbar" 
     "Bar Main";
     grid-template-columns: 2fr 10fr;
     grid-template-rows: 60px 1fr;
-    /* grid-gap: 10px; */
+    grid-gap: 10px;
     max-width: 1920px;
     width: 100%;
     height: auto;
-    margin: 0 auto;
+    margin: 0 auto; */
 }
 
 
 
-.main-layout {
+ .main-layout {
   display: flex;
+  align-items: start;
 }
 
 .page-content {
   flex: 1;
   padding: 20px;
-}
+} 
 
 
 
@@ -51,10 +55,10 @@
     color: white;
     height: 91vh;
 }
-.Main{
+/* .Main{
     grid-area: Main ;
     padding: 10px 20px;
     background-color: #282c3465;
     color: white;
-}
+} */
 
