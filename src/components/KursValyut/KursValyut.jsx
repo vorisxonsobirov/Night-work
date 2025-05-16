@@ -38,12 +38,12 @@ const KursValyut = () => {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>{currency.CcyNm_RU}</td>
-              <td>{currency.Rate}</td>
-              <td>{currency.Nominal}</td>
-              <td>{currency.Date}</td>
-            </tr>
+         <tr>
+    <td data-label="Название">{currency.CcyNm_RU}</td>
+    <td data-label="Курс">{currency.Rate}</td>
+    <td data-label="Номинал">{currency.Nominal}</td>
+    <td data-label="Дата">{currency.Date}</td>
+  </tr>
           </tbody>
         </table>
       )}
