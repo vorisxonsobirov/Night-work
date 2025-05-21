@@ -3,13 +3,22 @@ import "./kursValyut.css";
 
 const KursValyut = () => {
   const [currency, setCurrency] = useState(null);
+  // useState - Reactning bir qismi bo'lib, komponentning ichki holatini saqlash uchun ishlatiladi.
+
 
   const handleClick = async (code) => {
     try {
       const res = await fetch("https://cbu.uz/uz/arkhiv-kursov-valyut/json/");
+      // fetch - ma'lumotlarni olish uchun ishlatiladi 
+
       const data = await res.json();
+      // json - ma'lumotlarni JSON formatida uchun ishlatiladi
+
       const selected = data.find((item) => item.Ccy === code);
+      // find - ma'lumotlar ichidan kerakli elementni topish uchun ishlatiladi
+
       setCurrency(selected);
+      // setCurrency - holatni yangilash uchun ishlatiladi
     } catch (error) {
       console.error("xato: " + error.message);
     }
@@ -39,10 +48,10 @@ const KursValyut = () => {
           </thead>
           <tbody>
          <tr>
-    <td data-label="Название">{currency.CcyNm_RU}</td>
-    <td data-label="Курс">{currency.Rate}</td>
-    <td data-label="Номинал">{currency.Nominal}</td>
-    <td data-label="Дата">{currency.Date}</td>
+    <td >{currency.CcyNm_RU}</td>
+    <td >{currency.Rate}</td>
+    <td >{currency.Nominal}</td>
+    <td >{currency.Date}</td>
   </tr>
           </tbody>
         </table>

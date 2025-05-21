@@ -27,7 +27,8 @@ button:hover {
 } */
 
 .user-table-wrapper {
-  max-height: 400px;
+  max-height: 450px;
+  padding: 0px 10px;
   overflow-y: auto;
   border: 1px solid #ccc;
   border-radius: 8px;
