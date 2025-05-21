@@ -6,11 +6,15 @@ import "./bar.css"
 const Bar = () => {
   return (
     <div className='Bar'>
-      <Link to="/"> <p> Profile</p></Link> 
-      <Link to="/KursValyut"> <p>Kurs valyut </p></Link> 
-      <Link to="/Xabarlar"> <p>Xabarlar</p></Link> 
-      <Link to="/Tulovlar"> <p>Tulovlar </p></Link> 
-      <Link to="/Kontragentlar"> <p>Kontragentlar </p></Link> 
+     <a href=""><Link to="/">  Profile</Link>  </a> 
+     <a href=""><Link to="/KursValyut"> Kurs valyut </Link> </a>
+     <a href=""><Link to="/Xabarlar"> Xabarlar</Link> </a>
+     <a href=""><Link to="/Tulovlar"> Tulovlar </Link> </a>
+     <a href=""><Link to="/Kontragentlar"> Kontragentlar </Link> </a>
+      
+      
+      
+      
     </div>
   )
 }

@@ -1,4 +1,4 @@
-.Bar p{
+.Bar a{
     margin-top: 20px;
     font-size: 20px;
     color: rgba(255, 255, 255, 0.603);
@@ -7,9 +7,11 @@
     transition: all 0.2s;
     text-decoration: none;
 }
-.Bar p:hover{
+.Bar a:hover{
     color: rgb(0, 195, 255);
 }
 .Bar{
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
 }

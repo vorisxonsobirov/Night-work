@@ -1,0 +1,66 @@
+.Profile {
+  /* max-width: 800px; */
+  /* margin: 50px auto; */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  overflow-y: auto;
+  max-height: 80vh; 
+}
+::-webkit-scrollbar{
+    width: 2px;
+}
+.btn_holder{
+    display: flex;
+    gap: 20px ;
+}
+.Profile h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.Profile button {
+  padding: 10px 20px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+  margin-bottom: 20px;
+}
+
+.Profile button:hover {
+  background-color: #5548e0;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.user {
+  flex: 1 1 300px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  text-align: left;
+}
+
+.user h2 {
+  margin-top: 0;
+  color: #6c63ff;
+}
+
+.user p {
+  margin: 10px 0;
+  font-size: 15px;
+  color: #444;
+}
