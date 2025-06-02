@@ -7,6 +7,7 @@ import Xabarlar from './components/Xabarlar/Xabarlar';
 import Tulovlar from './components/Tulovlar/Tulovlar';
 import Kontragentlar from './components/Kontragent/Kontragent';
 import KursValyut from './components/KursValyut/KursValyut';
+import Map from './components/Map/Map';
 // import KKKKK from './components/KursValyut/KKKKK';
 
 
@@ -26,6 +27,7 @@ function App() {
             <Route path="/Xabarlar" element={<Xabarlar />} />
             <Route path="/Tulovlar" element={<Tulovlar />} />
             <Route path="/Kontragentlar" element={<Kontragentlar />} />
+            <Route path="/Map" element={<Map/>} />
           </Routes>
         </div>
       </div>

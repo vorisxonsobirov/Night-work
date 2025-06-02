@@ -11,6 +11,7 @@ const Kontragent = () => {
       // const response = await fetch('https://dummyjson.com/users');
       const data = await response.json();
       setUsers(data);
+      
     } catch (error) {
       console.error('Ошибка при загрузке:', error);
     }

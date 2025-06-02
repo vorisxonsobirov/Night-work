@@ -1,0 +1,45 @@
+.map-container {
+  height: 500px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+/* Кнопка "Найти меня" */
+.locate-btn {
+  position: absolute;
+  z-index: 1000;
+  top: 10px;
+  right: 10px;
+  background-color: #2d89ef;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.locate-btn:hover {
+  background-color: #1b5dab;
+}
+
+/* Адаптация */
+@media (max-width: 768px) {
+  .map-container {
+    height: 300px;
+  }
+
+  .locate-btn {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}

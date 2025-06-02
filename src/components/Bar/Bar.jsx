@@ -11,7 +11,7 @@ const Bar = () => {
      <a href=""><Link to="/Xabarlar"> Xabarlar</Link> </a>
      <a href=""><Link to="/Tulovlar"> Tulovlar </Link> </a>
      <a href=""><Link to="/Kontragentlar"> Kontragentlar </Link> </a>
-      
+     <a href=""><Link to="/Map"> Map </Link> </a>
       
       
       
